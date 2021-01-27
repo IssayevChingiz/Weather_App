@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="img/icons8-cloud-64.png">
+   
+    <title>Weather</title>
+  </head>
+  <body>
+    <div class="main-content">
+   {{>header}}
+   <img
+      class="pic"
+      src="img/icons8.png"
+      id="pic"
+    />
+   
+    <form>
+      <input placeholder="location...">
+      <button>Search</button>
+    </form>
+
+    <p id="message_1">Temperature:</p>
+    <p id="message_2">Forecast:</p>
+    </div>
+   
+   
+    {{>footer}}
+
+    <script type="text/javascript" src="js/handler.js"></script>
+  </body>
+
+ 
+</html>
